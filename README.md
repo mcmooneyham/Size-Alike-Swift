@@ -10,6 +10,10 @@ Swift's `Collection` protocol provides `.count`. Objective-C's `NSString` provid
 
 **Via `NSString` extension:** NSString and NSMutableString.
 
+## Performance
+
+All extensions are marked `@inlinable`, which allows the Swift compiler to inline the property access directly at the call site across module boundaries. This means `.size` and `.length` compile down to the same machine code as `.count`. There is zero runtime overhead.
+
 ## Requirements
 
 - Swift 6.0+

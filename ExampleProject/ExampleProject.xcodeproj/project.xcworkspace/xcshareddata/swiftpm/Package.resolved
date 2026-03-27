@@ -1,0 +1,15 @@
+{
+  "originHash" : "ba839f017feb2747b2286d7125554e4220163220a30d48e8a02840aef7166368",
+  "pins" : [
+    {
+      "identity" : "size-alike-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mcmooneyham/Size-Alike-Swift",
+      "state" : {
+        "branch" : "main",
+        "revision" : "771f3c2bad18e136a6fdc1f2b6cc7980aeb524cc"
+      }
+    }
+  ],
+  "version" : 3
+}
